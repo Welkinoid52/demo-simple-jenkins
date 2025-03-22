@@ -3,16 +3,16 @@ pipeline {
     agent {label 'slave'}
 
     stages {
-        stage('hello'){
+        stage('jenkins sharing'){
             steps {
                 script {
                     hello()
                 }
             }
         }
-        stage('Hello madagasker') {
+        stage('Hello build folder') {
             steps {
-                echo 'Hello hahahaha'
+                echo 'Hello testing'
                 sh ''' 
                 cd peacock 
                 echo "Hello World" > test.txt
