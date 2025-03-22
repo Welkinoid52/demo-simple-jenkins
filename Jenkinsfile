@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo 'Hello testing'
                 sh ''' 
-                cd peacock 
+                mkdir peacock && cd peacock 
                 echo "Hello Worllld" > test.txt
                 '''
             }
