@@ -1,6 +1,6 @@
 @Library("shared") _
 pipeline {
-    agent any
+    agent {label 'slave'}
 
     stages {
         stage('hello'){
@@ -15,7 +15,7 @@ pipeline {
                 echo 'Hello hahahaha'
                 sh ''' 
                 mkdir peacock
-                cd meow 
+                cd peacock 
                 echo "Hello World" > test.txt
                 '''
             }
