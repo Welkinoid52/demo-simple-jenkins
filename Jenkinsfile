@@ -15,7 +15,7 @@ pipeline {
                 echo 'Hello testing'
                 sh ''' 
                 cd peacock 
-                echo "Hello World" > test.txt
+                echo "Hello Worllld" > test.txt
                 '''
             }
         }
