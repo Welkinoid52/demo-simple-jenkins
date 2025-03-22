@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage('not hello'){
+        stage('not ho'){
             steps {
                 script {
                     hello()
@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo 'Hello mutthuu-don'
                 sh ''' 
-                mkdir bird
+                mkdir birdddd
                 cd meow 
                 echo "Hello World" > test.txt
                 '''
