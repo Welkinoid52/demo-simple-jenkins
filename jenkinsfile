@@ -14,7 +14,8 @@ pipeline {
             steps {
                 echo 'Hello mutthuu-don'
                 sh ''' 
-                cd meow
+                mkdir bird
+                cd meow 
                 echo "Hello World" > test.txt
                 '''
             }
