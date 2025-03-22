@@ -3,18 +3,18 @@ pipeline {
     agent any
 
     stages {
-        stage('notcdcddcd ho'){
+        stage('hello'){
             steps {
                 script {
                     hello()
                 }
             }
         }
-        stage('Hello') {
+        stage('Hello madagasker') {
             steps {
-                echo 'Hello mutthuu-don'
+                echo 'Hello hahahaha'
                 sh ''' 
-                mkdir birdddddc
+                mkdir peacock
                 cd meow 
                 echo "Hello World" > test.txt
                 '''
